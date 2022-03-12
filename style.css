@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+.top-container {
+    background-color: #b7eeee;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container{
+}
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #66bfbf;
+    line-height: 2;
+}
+
+h2 {
+    font-family:  "Merriweather",sans-serif;
+    color: #6ad1d1;
+    font-size: 2rem;
+    font-weight: bolder;
+
+ }
+
+h3 {
+    color: #66bfbf;
+    font-family: "Merriweather",sans-serif;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.cloud1 {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+
+}
+
+.cloud2 {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+
+.mypic {
+
+    margin-top: 2%;
+    border-radius: 100%;
+    height: 7%;
+    width: 13%;
+}
+
+.skill-row{
+    width: 50%;
+    margin:100px auto 100px auto;
+     text-align: left;
+     line-height: 2;
+}
+
+.image1{
+    width: 25%;
+    height: auto;
+    border-radius: 100%;
+    float: left;
+    margin-right: 30px;
+    
+}
+
+.image2{
+    width: 25%;
+     height: auto;
+    border-radius: 100%;
+    float: right;
+    margin-left: 30px;
+}
+
+
+
+      /* CSS BUTTON */
+
+      .btn {
+        background: #11cdd4;
+        background-image: -webkit-linear-gradient(top, #55a1d4, #86abc2);
+        background-image: -moz-linear-gradient(top, #55a1d4, #86abc2);
+        background-image: -ms-linear-gradient(top, #55a1d4, #86abc2);
+        background-image: -o-linear-gradient(top, #55a1d4, #86abc2);
+        background-image: linear-gradient(to bottom, #55a1d4, #86abc2);
+        -webkit-border-radius: 8;
+        -moz-border-radius: 8;
+        border-radius: 8px;
+        font-family: "Merriweather",sans-serif;
+        font-weight: normal;
+        color:#ffffff;
+        font-size: 20px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+      }
+      
+      .btn:hover {
+        background: #30e3cb;
+        text-decoration: none;
+      }
+
+      .bottom-container{
+          background-color: #66bfbf;
+          margin-top: 3%;
+          padding-top: 20px;
+          padding-bottom: 30px;
+      }
+
+      a{
+          color: #000f0f;
+          font-family: "Merriweather",sans-serif;
+           margin-right: 20px;
+           margin-left: 20px;
+        }
+
+   a:hover{
+    color: #EAF6f6;
+}
+
+.copyright{
+    color: #eaf6f6;
+    font-size: 0.8rem;
+}
